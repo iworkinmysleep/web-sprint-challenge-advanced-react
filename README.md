@@ -29,14 +29,20 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. Explain how to build stateful class components.
+Write the component to extend React.component. Write a constructor method that defines the state of the components. Life-cycle methods can be used to change the state of the component. Render the component with jsx.
 
 2. Describe the different phases of the component lifecycle.
+Initialization, Mounting, Updating, and Unmounting.
 
 3. Demonstrate an understanding of class component lifecycle methods.
+Initialization is defining the defaults and initial values of the component through state. Mounting inserts the component into the Dom.  Updating is where the state or props of the component are changed.  Unmounting is when the component is removed from the Dom..
 
 4. Define stateful logic.
+Any code in React that modifies or uses the state of a component to render things like toggles, or events.
 
 5. Describe how to test a React component with React Testing Library.
+Test by using the three A's.  Arrange - the code to be tested.  Act - producing an action from code from the subject of the test.  Assert - verify the return matches what was intended. 
+
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
@@ -108,7 +114,7 @@ _Note: You built a useForm hook in the guided project this week. You will probab
 #### Testing the Checkout Form
 
 - [ x] Build out the tests listed in `CheckoutForm.test.js`. You will need to make sure they are testing what the test title implies they are testing
-- [ ] Make sure the tests are passing, and make sure you can cause the tests to fail purposefully, so that you know the tests are truly working
+- [ x] Make sure the tests are passing, and make sure you can cause the tests to fail purposefully, so that you know the tests are truly working
 
 <hr/>
 In your solution, it is essential that you follow best practices and produce clean and professional results. You will be scored on your adherence to proper code style and good organization. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
