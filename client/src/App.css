@@ -251,3 +251,33 @@ pre {
   color: #0e101c;
   border-bottom: 2px solid !important;
 }
+
+.searchForm {
+  display: flex;	
+  margin: 20px auto;
+}
+
+.searchForm label, 
+.searchForm input {
+  color: #cf0;
+}
+
+.searchForm label { margin: 2px 2px 0 0; }
+
+.searchForm input[type=search] {
+  font: 1em/1.618 Open Sans, Arial, Sans-serif;
+  border: 1px solid whitesmoke;
+  border-width: 0 0 2px;
+  background-color: transparent;
+  width: 80%;
+}
+
+.searchForm input[type=search]:focus {
+  border-color: #cf0;
+  color: whitesmoke;
+  outline: 0;
+}
+
+.fa {
+  margin-top: 10px
+}
